@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.coin-img{
+    width: 200px;
+}
+.winner img{
+    width: 100px;
+}
+.main-toss-container{
+    background-color: #009876;
+    height: 100vh;
+    width: 100vw;
+}
+
+.toss{
+    width: 30vw;
+    height: 50vh;
+    color: #fff;
+    height: auto;
+    padding: 3rem;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* border: 2px solid #fff; */
+    background-color: #000;
+}
+
+
+/* popup */
+.winner-popup-container{
+    width: 100vw;
+    height: 100vh;
+    transition: 2s ease;
+    z-index: 10000000000 !important;
+    position: fixed;
+}
+
+.winner-popup{
+    text-align: center;
+    padding: 1rem;
+    background-color: #000 !important;
+    color: #fff !important;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.close{
+    position: absolute;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.show-popup{
+    transform: translateX(-150%);
+}
+
+.hide-popup{
+    transform: translateX(-150%);
+}
+.winner-content{
+    padding: 2rem 1rem 1rem 1rem;
+    color: #fff !important;
+
+}
